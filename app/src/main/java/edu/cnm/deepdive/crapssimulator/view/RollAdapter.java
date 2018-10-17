@@ -23,6 +23,7 @@ public class RollAdapter extends ArrayAdapter<Roll> {
   @Override
   public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
     Roll roll = getItem(position);
+    // TODO Check convertView
     View view = LayoutInflater.from(getContext()).inflate(R.layout.roll_item, parent, false);
     // TODO Populate view object
     return view;
