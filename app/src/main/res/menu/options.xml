@@ -23,6 +23,6 @@
     android:id="@+id/reset"
     android:title="@string/reset_game"
     android:icon="@drawable/ic_reset"
-    app:showAsAction="ifRoom" />
+    app:showAsAction="never" />
 
 </menu>
